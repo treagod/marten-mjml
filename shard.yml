@@ -1,0 +1,13 @@
+name: marten_mjml
+version: 0.1.0
+
+dependencies:
+  marten:
+    github: martenframework/marten
+
+development_dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+  ameba:
+    github: crystal-ameba/ameba
+    branch: master

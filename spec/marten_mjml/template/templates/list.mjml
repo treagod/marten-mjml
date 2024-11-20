@@ -1,0 +1,19 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text>Hello, {{ name }}!</mj-text>
+      </mj-column>
+    </mj-section>
+    {% if show_items %}
+    <mj-section>
+      <mj-column>
+        <mj-text>Items:</mj-text>
+        {% for item in items %}
+          <mj-text>- {{ item }}</mj-text>
+        {% endfor %}
+      </mj-column>
+    </mj-section>
+    {% endif %}
+  </mj-body>
+</mjml>
